@@ -23,7 +23,7 @@ export default function TabOneScreen() {
         style={styles.image}
       />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
-      <BoutonLancer onPress={handleClick} label="Tirage aléatoire" />
+      <BoutonLancer onPress={handleClick} label="Memoire" />
     </View>
   );
 }
