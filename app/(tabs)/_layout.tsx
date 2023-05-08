@@ -26,6 +26,10 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
+        headerTitleStyle: {
+          fontSize: 12,
+          // ... autres styles pour le titre
+        },
       }}
     >
       <Tabs.Screen
