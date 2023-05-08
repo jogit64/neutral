@@ -15,7 +15,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)"
         >
-          Bienvenue dans la neutral place !
+          Clique sur le bouton pour retrouver des souvenirs
         </Text>
 
         {/* <View
@@ -26,17 +26,17 @@ export default function EditScreenInfo({ path }: { path: string }) {
           <MonoText>{path}</MonoText>
         </View> */}
 
-        <Text
+        {/* <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)"
         >
           Change any of the text, save the file, and your app will automatically
           update.
-        </Text>
+        </Text> */}
       </View>
 
-      <View style={styles.helpContainer}>
+      {/* <View style={styles.helpContainer}>
         <ExternalLink
           style={styles.helpLink}
           href="https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet"
@@ -46,7 +46,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
             changes
           </Text>
         </ExternalLink>
-      </View>
+      </View> */}
     </View>
   );
 }
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     fontSize: 17,
     lineHeight: 24,
     textAlign: "center",
+    marginBottom: 25,
   },
   helpContainer: {
     marginTop: 15,
